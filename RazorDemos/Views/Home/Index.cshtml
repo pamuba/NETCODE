@@ -1,0 +1,60 @@
+﻿@using RazorDemos.Models;
+@model IEnumerable<Person>
+<html>
+    <head>
+    <title>@ViewBag.appTitle</title>
+        <link href="~/StyleSheet.css" rel="stylesheet" />
+    </head>
+    <body style="font-family:Arial">
+
+    <div class="page-content">
+        <h1>Persons</h1>
+        @* <h2>@Model.DateOfBirth</h2> *@
+        @{
+            //List<Person>? people = (List<Person>)ViewData["people"];
+        }
+        @* how did viewbag has a filed named people instead of using .people? *@
+        @* How do you handle null values or missing keys in ViewBag? *@
+
+        @foreach (Person person in Model)
+        {
+
+              <div class="box float-left">
+                @if(@person.Name != null){
+                    <h3>@person.Name</h3>
+                }
+                else{
+                    <h3>Missing Name</h3>
+                }
+               
+                <table class="table w-100">
+                    <tbody>
+                        <tr>
+                            <td>Gender</td>
+                            <td>@person.PersonGender</td>
+                        </tr>
+                        <tr>
+                            <td>Date Of Birth</td>
+                            @if (@person.DateOfBirth != null)
+                            {
+                                <td>@person.DateOfBirth?.ToString("MM/dd/yyyy")</td>
+                            }
+                            else
+                            {
+                                <td>Missing DOB</td>
+                            }
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <a href="/person-details/@person.Name">Details</a>
+                </div>
+                <div>
+                    <a href="/person-with-product">Person With Products</a>
+                </div>
+             </div>
+        }
+    </div>
+
+    </body>
+</html>

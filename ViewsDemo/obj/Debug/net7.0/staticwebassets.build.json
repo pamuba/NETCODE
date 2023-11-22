@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "y74E2iE+ifSesBUQW8VciOMFzY7IjLSqJkwAaNHbirU=",
+  "Source": "ViewsDemo",
+  "BasePath": "_content/ViewsDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ViewsDemo\\wwwroot",
+      "Source": "ViewsDemo",
+      "ContentRoot": "D:\\dotnet\\source\\repos\\ViewsDemo\\wwwroot\\",
+      "BasePath": "_content/ViewsDemo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

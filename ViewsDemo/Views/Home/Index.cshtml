@@ -1,0 +1,42 @@
+﻿@using ViewsDemo.Models
+@{
+    string appTitle = "Asp.Net Code App Demo";
+    Person person = new Person() { Name = "John", DateOfBirth = Convert.ToDateTime("2000-07-01") , 
+    Gender="Male"};
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["appTitle"]</title>
+</head>
+<body>
+    <h1>WELCOME TO HOME</h1>
+    <h2>Hello @person.Name</h2>
+    @{
+        double age = Math.Round((DateTime.Now - person.DateOfBirth).TotalDays / 365.25);
+    }
+    <h2>@age years</h2>
+    <hr />
+    @{
+        List<Person>? people = (List<Person>?)ViewData["persons"];
+    }
+    @for(int i = 0; i < 3; i++)
+    {
+        Person? persons = people[i];
+        <div>
+            @persons.Name
+            <span>,</span>
+            <span>@persons.Gender</span>
+            @if (persons.DateOfBirth != null)
+            {
+                <span>@persons.DateOfBirth.ToString("MM/dd/yyyy")</span>    
+            }
+        </div>
+    }
+</body>
+</html>
+
+@* if switch foreach for Literal Html.Raw *@

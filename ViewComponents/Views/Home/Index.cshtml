@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+<h1>HOME</h1>
+<button class="button button-blue-back" id="load-employees-button">Load</button>
+<script src="Script.js" ></script>
+
+@* Call ViewComponent *@
+
+@{
+    PersonGridModel personModel = new PersonGridModel()
+    {
+        GridTitle = "Employees List",
+        Persons = new List<Person>() {
+            new Person() {PersonName = "James", JobTitle="Associte"},
+            new Person() {PersonName = "Billy", JobTitle="Sales Manager"}
+        }
+    };
+}
+
+@await Component.InvokeAsync("Grid", new {
+    grid = personModel
+})

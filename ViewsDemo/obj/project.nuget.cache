@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+ll1y0/n39Vp8+APbJUP4QXV+2o/zg8g3p1RZpcSwDRHivMiqci4KofhxrSdudJlbtFaufN8PCb4QnzO2ypyjg==",
+  "success": true,
+  "projectFilePath": "D:\\dotnet\\source\\repos\\ViewsDemo\\ViewsDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Partha.bora\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Partha.bora\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Partha.bora\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Partha.bora\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

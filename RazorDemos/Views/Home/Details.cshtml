@@ -1,0 +1,31 @@
+﻿@using RazorDemos.Models;
+@model Person
+
+<html>
+<head>
+    <title>Person Details</title>
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+</head>
+<body style="font-family:Arial">
+
+    <div class="page-content">
+      <h1>Person Details</h1>
+      <div class="box">
+            <h3>@Model.Name</h3>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Gender</td>
+                        <td>@Model.PersonGender</td>
+                    </tr>
+                    <tr>
+                        <td>Date Of Birth</td>
+                        <td>@Model.DateOfBirth?.ToString("MM/dd/yyyy")</td>
+                    </tr>
+                </tbody>
+            </table>
+      </div>
+      <a href="/">Back To Persons</a>
+    </div>
+</body>
+</html>

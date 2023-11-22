@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "lbnsVlRNb8TPTXDqk5FX67fAYnYpcuSzinQOanUrBkw=",
+  "Source": "StaticFilesDemos",
+  "BasePath": "_content/StaticFilesDemos",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StaticFilesDemos\\wwwroot",
+      "Source": "StaticFilesDemos",
+      "ContentRoot": "D:\\dotnet\\source\\repos\\StaticFilesDemos\\wwwroot\\",
+      "BasePath": "_content/StaticFilesDemos",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\dotnet\\source\\repos\\StaticFilesDemos\\wwwroot\\download.png",
+      "SourceId": "StaticFilesDemos",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\dotnet\\source\\repos\\StaticFilesDemos\\wwwroot\\",
+      "BasePath": "_content/StaticFilesDemos",
+      "RelativePath": "download.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\download.png"
+    },
+    {
+      "Identity": "D:\\dotnet\\source\\repos\\StaticFilesDemos\\wwwroot\\ReactJSpdf.pdf",
+      "SourceId": "StaticFilesDemos",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\dotnet\\source\\repos\\StaticFilesDemos\\wwwroot\\",
+      "BasePath": "_content/StaticFilesDemos",
+      "RelativePath": "ReactJSpdf.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ReactJSpdf.pdf"
+    }
+  ]
+}

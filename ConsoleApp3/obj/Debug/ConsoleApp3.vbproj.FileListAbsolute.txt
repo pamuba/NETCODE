@@ -1,0 +1,11 @@
+D:\dotnet\source\repos\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+D:\dotnet\source\repos\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+D:\dotnet\source\repos\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+D:\dotnet\source\repos\ConsoleApp3\bin\Debug\ConsoleApp3.xml
+D:\dotnet\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.vbproj.AssemblyReference.cache
+D:\dotnet\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.Resources.resources
+D:\dotnet\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.vbproj.GenerateResource.cache
+D:\dotnet\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.vbproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+D:\dotnet\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.xml
+D:\dotnet\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.pdb

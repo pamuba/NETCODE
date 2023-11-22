@@ -1,0 +1,54 @@
+﻿@using RazorDemos.Models;
+@model PersonWithProduct;
+<html>
+<head>
+    <title>@ViewBag.appTitle</title>
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+</head>
+<body style="font-family:Arial">
+
+    <div class="page-content">
+
+        <h1>Persons With Product</h1>
+            <div class="box w-100">
+                <h3>Person</h3>
+                 <table class="table w-50">
+                    <tbody>
+                        <tr>
+                            <td>Gender</td>
+                            <td>@Model.PersonData.PersonGender</td>
+                        </tr>
+                        <tr>
+                            <td>Date Of Birth</td>
+                            @if (@Model.PersonData.DateOfBirth != null)
+                            {
+                                <td>@Model.PersonData.DateOfBirth?.ToString("MM/dd/yyyy")</td>
+                            }
+                            else
+                            {
+                                <td>Missing DOB</td>
+                            }
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="box w-50">
+                <h3>Product</h3>
+                <table class="table w-50">
+                    <tbody>
+                        <tr>
+                            <td>ProductId</td>
+                            <td>@Model.ProductData.ProductId</td>
+                        </tr>
+                        <tr>
+                            <td>Product Name</td>
+                               
+                            <td>@Model.ProductData.ProductName</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+D:\dotnet\source\repos\ConsoleApp4Core\bin\Debug\net7.0\ConsoleApp4Core.exe
+D:\dotnet\source\repos\ConsoleApp4Core\bin\Debug\net7.0\ConsoleApp4Core.deps.json
+D:\dotnet\source\repos\ConsoleApp4Core\bin\Debug\net7.0\ConsoleApp4Core.runtimeconfig.json
+D:\dotnet\source\repos\ConsoleApp4Core\bin\Debug\net7.0\ConsoleApp4Core.dll
+D:\dotnet\source\repos\ConsoleApp4Core\bin\Debug\net7.0\ConsoleApp4Core.pdb
+D:\dotnet\source\repos\ConsoleApp4Core\obj\Debug\net7.0\ConsoleApp4Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\source\repos\ConsoleApp4Core\obj\Debug\net7.0\ConsoleApp4Core.AssemblyInfoInputs.cache
+D:\dotnet\source\repos\ConsoleApp4Core\obj\Debug\net7.0\ConsoleApp4Core.AssemblyInfo.cs
+D:\dotnet\source\repos\ConsoleApp4Core\obj\Debug\net7.0\ConsoleApp4Core.csproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\ConsoleApp4Core\obj\Debug\net7.0\ConsoleApp4Core.dll
+D:\dotnet\source\repos\ConsoleApp4Core\obj\Debug\net7.0\refint\ConsoleApp4Core.dll
+D:\dotnet\source\repos\ConsoleApp4Core\obj\Debug\net7.0\ConsoleApp4Core.pdb
+D:\dotnet\source\repos\ConsoleApp4Core\obj\Debug\net7.0\ConsoleApp4Core.genruntimeconfig.cache
+D:\dotnet\source\repos\ConsoleApp4Core\obj\Debug\net7.0\ref\ConsoleApp4Core.dll

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\dotnet\\source\\repos\\StaticFilesDemos\\wwwroot\\ReactJSpdf.pdf",
+      "PackagePath": "staticwebassets\\ReactJSpdf.pdf"
+    },
+    {
+      "Id": "D:\\dotnet\\source\\repos\\StaticFilesDemos\\wwwroot\\download.png",
+      "PackagePath": "staticwebassets\\download.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.StaticFilesDemos.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.StaticFilesDemos.props",
+      "PackagePath": "build\\StaticFilesDemos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.StaticFilesDemos.props",
+      "PackagePath": "buildMultiTargeting\\StaticFilesDemos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.StaticFilesDemos.props",
+      "PackagePath": "buildTransitive\\StaticFilesDemos.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

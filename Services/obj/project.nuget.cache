@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VkxalvrWa5P3qle6+kdj2ce9F729n9YgQ272Kn/VlrnxQe8iYWHIcQwAMRzukv4k0pVrxk/ZxuZyg+SQvuj8OA==",
+  "success": true,
+  "projectFilePath": "D:\\dotnet\\source\\repos\\Services\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Partha.bora\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

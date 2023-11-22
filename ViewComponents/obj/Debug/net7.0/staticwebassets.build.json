@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "x1gdWeriVMui2pOKnIof5wq6WP1jItzaxhVVRHSBxgI=",
+  "Source": "ViewComponentsDemo",
+  "BasePath": "_content/ViewComponentsDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ViewComponentsDemo\\wwwroot",
+      "Source": "ViewComponentsDemo",
+      "ContentRoot": "D:\\dotnet\\source\\repos\\ViewComponents\\wwwroot\\",
+      "BasePath": "_content/ViewComponentsDemo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\dotnet\\source\\repos\\ViewComponents\\wwwroot\\StyleSheet.css",
+      "SourceId": "ViewComponentsDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\dotnet\\source\\repos\\ViewComponents\\wwwroot\\",
+      "BasePath": "_content/ViewComponentsDemo",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

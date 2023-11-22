@@ -1,0 +1,15 @@
+D:\dotnet\source\repos\ServiceContract\bin\Debug\net7.0\ServiceContract.deps.json
+D:\dotnet\source\repos\ServiceContract\bin\Debug\net7.0\ServiceContract.dll
+D:\dotnet\source\repos\ServiceContract\bin\Debug\net7.0\ServiceContract.pdb
+D:\dotnet\source\repos\ServiceContract\bin\Debug\net7.0\Entities.dll
+D:\dotnet\source\repos\ServiceContract\bin\Debug\net7.0\Entities.pdb
+D:\dotnet\source\repos\ServiceContract\obj\Debug\net7.0\ServiceContract.csproj.AssemblyReference.cache
+D:\dotnet\source\repos\ServiceContract\obj\Debug\net7.0\ServiceContract.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\source\repos\ServiceContract\obj\Debug\net7.0\ServiceContract.AssemblyInfoInputs.cache
+D:\dotnet\source\repos\ServiceContract\obj\Debug\net7.0\ServiceContract.AssemblyInfo.cs
+D:\dotnet\source\repos\ServiceContract\obj\Debug\net7.0\ServiceContract.csproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\ServiceContract\obj\Debug\net7.0\ServiceContract.csproj.CopyComplete
+D:\dotnet\source\repos\ServiceContract\obj\Debug\net7.0\ServiceContract.dll
+D:\dotnet\source\repos\ServiceContract\obj\Debug\net7.0\refint\ServiceContract.dll
+D:\dotnet\source\repos\ServiceContract\obj\Debug\net7.0\ServiceContract.pdb
+D:\dotnet\source\repos\ServiceContract\obj\Debug\net7.0\ref\ServiceContract.dll
