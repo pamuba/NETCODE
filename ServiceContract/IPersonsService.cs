@@ -49,5 +49,8 @@ namespace ServiceContract
 
 
         PersonResponse UpdatePerson (PersonUpdateRequest? personUpdateRequest);
+
+
+        bool DeletePerson(Guid? PersonID);
     }
 }
