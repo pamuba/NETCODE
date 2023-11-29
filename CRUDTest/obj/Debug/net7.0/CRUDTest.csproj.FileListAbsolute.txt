@@ -1,9 +1,4 @@
 D:\dotnet\source\repos\CRUDTest\bin\Debug\net7.0\CoverletSourceRootsMapping
-D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\CRUDTest.csproj.AssemblyReference.cache
-D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\CRUDTest.GeneratedMSBuildEditorConfig.editorconfig
-D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\CRUDTest.AssemblyInfoInputs.cache
-D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\CRUDTest.AssemblyInfo.cs
-D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\CRUDTest.csproj.CoreCompileInputs.cache
 D:\dotnet\source\repos\CRUDTest\bin\Debug\net7.0\testhost.dll
 D:\dotnet\source\repos\CRUDTest\bin\Debug\net7.0\CRUDExample.deps.json
 D:\dotnet\source\repos\CRUDTest\bin\Debug\net7.0\CRUDExample.runtimeconfig.json
@@ -106,6 +101,11 @@ D:\dotnet\source\repos\CRUDTest\bin\Debug\net7.0\CRUDExample.pdb
 D:\dotnet\source\repos\CRUDTest\bin\Debug\net7.0\Entities.pdb
 D:\dotnet\source\repos\CRUDTest\bin\Debug\net7.0\ServiceContract.pdb
 D:\dotnet\source\repos\CRUDTest\bin\Debug\net7.0\Service.pdb
+D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\CRUDTest.csproj.AssemblyReference.cache
+D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\CRUDTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\CRUDTest.AssemblyInfoInputs.cache
+D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\CRUDTest.AssemblyInfo.cs
+D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\CRUDTest.csproj.CoreCompileInputs.cache
 D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\CRUDTest.csproj.CopyComplete
 D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\CRUDTest.dll
 D:\dotnet\source\repos\CRUDTest\obj\Debug\net7.0\refint\CRUDTest.dll

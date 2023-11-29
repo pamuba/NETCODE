@@ -11,36 +11,39 @@ namespace Service
         public CountriesService(bool initialize = true) { 
             _countries = new List<Country>();
             if (initialize) {
-                new Country()
+                _countries.AddRange(new List<Country>()
                 {
-                    CountryID = Guid.Parse
-                ("C989A57C-B8E4-4A7D-9A30-D2FFF358165B"),
-                    CountryName = "USA"
-                };
-                new Country()
-                {
-                    CountryID = Guid.Parse
-                ("689988FD-58FA-4262-BDC9-842ACD29B2B1"),
-                    CountryName = "MEXICO"
-                };
-                new Country()
-                {
-                    CountryID = Guid.Parse
-                ("A86FB1C7-4A09-4B92-9503-536990A6A97D"),
-                    CountryName = "CANADA"
-                };
-                new Country()
-                {
-                    CountryID = Guid.Parse
-                ("530A9718-716F-4B1F-9ACF-9DE52B7E84B2"),
-                    CountryName = "CHINA"
-                };
-                new Country()
-                {
-                    CountryID = Guid.Parse
-                ("D3A6525D-2532-49DC-B581-44F7572A6B1C"),
-                    CountryName = "JAPAN"
-                };
+                    new Country()
+                    {
+                        CountryID = Guid.Parse
+                    ("C989A57C-B8E4-4A7D-9A30-D2FFF358165B"),
+                        CountryName = "USA"
+                    },
+                    new Country()
+                    {
+                        CountryID = Guid.Parse
+                    ("689988FD-58FA-4262-BDC9-842ACD29B2B1"),
+                        CountryName = "MEXICO"
+                    },
+                    new Country()
+                    {
+                        CountryID = Guid.Parse
+                    ("A86FB1C7-4A09-4B92-9503-536990A6A97D"),
+                        CountryName = "CANADA"
+                    },
+                    new Country()
+                    {
+                        CountryID = Guid.Parse
+                    ("530A9718-716F-4B1F-9ACF-9DE52B7E84B2"),
+                        CountryName = "CHINA"
+                    },
+                    new Country()
+                    {
+                        CountryID = Guid.Parse
+                    ("D3A6525D-2532-49DC-B581-44F7572A6B1C"),
+                        CountryName = "JAPAN"
+                    }
+                });
             }
         }
 
