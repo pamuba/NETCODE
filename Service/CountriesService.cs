@@ -6,45 +6,11 @@ namespace Service
 {
     public class CountriesService : ICountriesService
     {
-        private readonly List<Country> _countries;
+        //private readonly List<Country> _countries;
+        private readonly PersonsDbContext _db;
 
-        public CountriesService(bool initialize = true) { 
-            _countries = new List<Country>();
-            if (initialize) {
-                _countries.AddRange(new List<Country>()
-                {
-                    new Country()
-                    {
-                        CountryID = Guid.Parse
-                    ("C989A57C-B8E4-4A7D-9A30-D2FFF358165B"),
-                        CountryName = "USA"
-                    },
-                    new Country()
-                    {
-                        CountryID = Guid.Parse
-                    ("689988FD-58FA-4262-BDC9-842ACD29B2B1"),
-                        CountryName = "MEXICO"
-                    },
-                    new Country()
-                    {
-                        CountryID = Guid.Parse
-                    ("A86FB1C7-4A09-4B92-9503-536990A6A97D"),
-                        CountryName = "CANADA"
-                    },
-                    new Country()
-                    {
-                        CountryID = Guid.Parse
-                    ("530A9718-716F-4B1F-9ACF-9DE52B7E84B2"),
-                        CountryName = "CHINA"
-                    },
-                    new Country()
-                    {
-                        CountryID = Guid.Parse
-                    ("D3A6525D-2532-49DC-B581-44F7572A6B1C"),
-                        CountryName = "JAPAN"
-                    }
-                });
-            }
+        public CountriesService(PersonsDbContext personsDbContext) { 
+            _db = personsDbContext;
         }
 
         public CountryResponse AddCountry(CountryAddRequest countryAddRequest)
@@ -58,7 +24,8 @@ namespace Service
                 throw new ArgumentException(nameof(countryAddRequest.CountryName));
             }
 
-            if (_countries.Where(temp => temp.CountryName == countryAddRequest.CountryName).Count() > 0) {
+            if (_db.Countries.Count(temp => temp
+            .CountryName == countryAddRequest.CountryName) > 0) {
                 throw new ArgumentException("Given country name already exists");
             }
 
@@ -67,14 +34,16 @@ namespace Service
 
             country.CountryID = Guid.NewGuid();
 
-            _countries.Add(country);
+            _db.Countries.Add(country);
+
+            //_db.SaveChanges();
 
             return country.ToCountryResponse();
         }
 
         public List<CountryResponse> GetAllCountries()
         {
-            return _countries.Select(country => country.ToCountryResponse()).ToList();
+            return _db.Countries.Select(country => country.ToCountryResponse()).ToList();
 
         }
 
@@ -83,7 +52,8 @@ namespace Service
             if (countryID == null)
                 return null;
 
-            Country? country_response_from_list = _countries.FirstOrDefault(temp => temp.CountryID == countryID);
+            Country? country_response_from_list = _db.Countries
+                .FirstOrDefault(temp => temp.CountryID == countryID);
 
             if (country_response_from_list == null)
                 return null;

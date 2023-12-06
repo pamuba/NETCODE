@@ -7,6 +7,7 @@ using ServiceContract.DTO;
 using Service;
 using ServiceContract.Enums;
 using Xunit.Abstractions;
+using Microsoft.EntityFrameworkCore;
 
 namespace CRUDTest
 {
@@ -21,8 +22,11 @@ namespace CRUDTest
         //constructor
         public PersonsServiceTest(ITestOutputHelper testOutputHelper)
         {
-            _personService = new PersonsService(false);
-            _countriesService = new CountriesService();
+            _countriesService = new CountriesService(new PersonsDbContext
+                (new DbContextOptionsBuilder<PersonsDbContext>().Options));
+
+            _personService = new PersonsService(new PersonsDbContext
+                (new DbContextOptionsBuilder<PersonsDbContext>().Options), _countriesService);
             _testOutputHelper = testOutputHelper;
         }
 
