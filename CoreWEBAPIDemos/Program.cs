@@ -1,4 +1,6 @@
 using CoreWEBAPIDemos.Data;
+using CoreWEBAPIDemos.Mappings;
+using CoreWEBAPIDemos.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +14,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<WalkDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("WalkConnection"));
 });
+
+builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>();
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
 var app = builder.Build();
 
