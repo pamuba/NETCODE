@@ -5,7 +5,7 @@ namespace CoreWEBAPIDemos.Data
 {
     public class WalkDbContext : DbContext
     {
-        public WalkDbContext(DbContextOptions dbContextOptions):base(dbContextOptions) 
+        public WalkDbContext(DbContextOptions<WalkDbContext> dbContextOptions):base(dbContextOptions) 
         {
                 
         }

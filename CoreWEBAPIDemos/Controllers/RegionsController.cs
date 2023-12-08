@@ -4,6 +4,7 @@ using CoreWEBAPIDemos.Data;
 using CoreWEBAPIDemos.Models.Domain;
 using CoreWEBAPIDemos.Models.DTO;
 using CoreWEBAPIDemos.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -12,6 +13,7 @@ namespace CoreWEBAPIDemos.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class RegionsController : ControllerBase
     {
         private readonly WalkDbContext dbContext;
@@ -26,12 +28,14 @@ namespace CoreWEBAPIDemos.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetAll() {
             var regionsDomain = await regionRepository.GetAllAsync();
             return Ok(mapper.Map<List<RegionDto>>(regionsDomain));
         }
         [HttpGet]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             var regionDomain = await regionRepository.GetByIdAsync(id);
@@ -44,6 +48,7 @@ namespace CoreWEBAPIDemos.Controllers
         }
         [HttpPost]
         [ValidateModel]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Create([FromBody] AddRegionRequestDto addRegionRequestDto)
         {
             //if (ModelState.IsValid)
@@ -62,6 +67,7 @@ namespace CoreWEBAPIDemos.Controllers
         }
         [HttpPut]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Update([FromRoute] Guid id, 
             [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
         {
@@ -87,6 +93,7 @@ namespace CoreWEBAPIDemos.Controllers
 
         [HttpDelete]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Reader, Writer")]
         public async Task<IActionResult> Delete([FromRoute] Guid id) {
             var regioDomainModel = await regionRepository.DeleteAsync(id);
 
