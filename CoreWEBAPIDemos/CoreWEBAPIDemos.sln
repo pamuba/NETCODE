@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWEBAPIDemos", "CoreWEBAPIDemos.csproj", "{DE1FFE12-2DEC-43A9-A78B-8C12A6C860DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWEBAPIDemos", "CoreWEBAPIDemos.csproj", "{DE1FFE12-2DEC-43A9-A78B-8C12A6C860DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalksUI", "..\WalksUI\WalksUI.csproj", "{A53A538A-FD16-4DEB-9D38-28B4DA45B873}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DE1FFE12-2DEC-43A9-A78B-8C12A6C860DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE1FFE12-2DEC-43A9-A78B-8C12A6C860DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE1FFE12-2DEC-43A9-A78B-8C12A6C860DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53A538A-FD16-4DEB-9D38-28B4DA45B873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53A538A-FD16-4DEB-9D38-28B4DA45B873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53A538A-FD16-4DEB-9D38-28B4DA45B873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53A538A-FD16-4DEB-9D38-28B4DA45B873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

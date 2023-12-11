@@ -28,14 +28,14 @@ namespace CoreWEBAPIDemos.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Reader")]
+        //[Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetAll() {
             var regionsDomain = await regionRepository.GetAllAsync();
             return Ok(mapper.Map<List<RegionDto>>(regionsDomain));
         }
         [HttpGet]
         [Route("{id:Guid}")]
-        [Authorize(Roles = "Writer")]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             var regionDomain = await regionRepository.GetByIdAsync(id);
@@ -48,7 +48,7 @@ namespace CoreWEBAPIDemos.Controllers
         }
         [HttpPost]
         [ValidateModel]
-        [Authorize(Roles = "Writer")]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> Create([FromBody] AddRegionRequestDto addRegionRequestDto)
         {
             //if (ModelState.IsValid)
@@ -67,7 +67,7 @@ namespace CoreWEBAPIDemos.Controllers
         }
         [HttpPut]
         [Route("{id:Guid}")]
-        [Authorize(Roles = "Writer")]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> Update([FromRoute] Guid id, 
             [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
         {
@@ -93,7 +93,7 @@ namespace CoreWEBAPIDemos.Controllers
 
         [HttpDelete]
         [Route("{id:Guid}")]
-        [Authorize(Roles = "Reader, Writer")]
+        //[Authorize(Roles = "Reader, Writer")]
         public async Task<IActionResult> Delete([FromRoute] Guid id) {
             var regioDomainModel = await regionRepository.DeleteAsync(id);
 

@@ -1,0 +1,7 @@
+D:\dotnet\source\repos\PPService\bin\PPService.dll.config
+D:\dotnet\source\repos\PPService\bin\PPService.dll
+D:\dotnet\source\repos\PPService\bin\PPService.pdb
+D:\dotnet\source\repos\PPService\obj\Debug\PPService.csproj.AssemblyReference.cache
+D:\dotnet\source\repos\PPService\obj\Debug\PPService.csproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\PPService\obj\Debug\PPService.dll
+D:\dotnet\source\repos\PPService\obj\Debug\PPService.pdb
