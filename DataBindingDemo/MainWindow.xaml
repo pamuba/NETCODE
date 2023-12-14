@@ -1,0 +1,23 @@
+﻿<Window x:Class="DataBindingDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataBindingDemo"
+        mc:Ignorable="d"
+        DataContext="{Binding RelativeSource={RelativeSource self}}"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <ListBox
+                ItemsSource="{Binding AvailableNumbers}"
+                Margin="4,0,1,10"
+                Height="250"
+                ></ListBox>
+            <StackPanel Margin="0,0,20,10" HorizontalAlignment="Right" Orientation="Horizontal">
+                <Button MinWidth="75" Click="AddNumber" Margin="10,0,0,0">Add</Button>
+                <Button MinWidth="75" Click="DeleteNumber" Margin="10,0,0,0">Delete</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

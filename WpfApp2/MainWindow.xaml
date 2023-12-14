@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="200">
+    <StackPanel>
+        <TextBlock Name="myTextBlock">
+            Hello <Bold>World !</Bold> And hello <Italic>you</Italic>
+            <LineBreak />
+            Go to <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://www.google.com">google.com</Hyperlink>
+        </TextBlock>
+        <TextBlock TextWrapping="Wrap" Foreground="Aqua">
+            Loremipsumdolorsitametconsecteturadipiscing elit, 
+            <Span Foreground="Black">
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </Span>    
+        </TextBlock>
+    </StackPanel>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Page x:Class="NavigationDemos.Pages.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NavigationDemos.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+
+    <Grid>
+        <Label>This is Page 1</Label>
+        <Image Source="https://i.pinimg.com/474x/5e/43/3b/5e433b8b5a514a42d8521c8c53d66726.jpg" />
+    </Grid>
+</Page>
