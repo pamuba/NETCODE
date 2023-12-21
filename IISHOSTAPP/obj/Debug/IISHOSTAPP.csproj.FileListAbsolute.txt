@@ -1,0 +1,11 @@
+D:\dotnet\source\repos\IISHOSTAPP\bin\IISHOSTAPP.dll.config
+D:\dotnet\source\repos\IISHOSTAPP\bin\IISHOSTAPP.dll
+D:\dotnet\source\repos\IISHOSTAPP\bin\IISHOSTAPP.pdb
+D:\dotnet\source\repos\IISHOSTAPP\bin\IISHOSTINGDEMO.dll
+D:\dotnet\source\repos\IISHOSTAPP\bin\IISHOSTINGDEMO.pdb
+D:\dotnet\source\repos\IISHOSTAPP\bin\IISHOSTINGDEMO.dll.config
+D:\dotnet\source\repos\IISHOSTAPP\obj\Debug\IISHOSTAPP.csproj.AssemblyReference.cache
+D:\dotnet\source\repos\IISHOSTAPP\obj\Debug\IISHOSTAPP.csproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\IISHOSTAPP\obj\Debug\IISHOSTAPP.csproj.CopyComplete
+D:\dotnet\source\repos\IISHOSTAPP\obj\Debug\IISHOSTAPP.dll
+D:\dotnet\source\repos\IISHOSTAPP\obj\Debug\IISHOSTAPP.pdb

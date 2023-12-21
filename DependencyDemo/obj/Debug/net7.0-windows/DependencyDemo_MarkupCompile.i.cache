@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\dotnet\source\repos\DependencyDemo\App.xaml
-2-1835229294
+3-1301480306
 
-61375560647
+7-1990066937
 198-759771931
-MainWindow.xaml;MyUC.xaml;
+MainWindow.xaml;MyUC.xaml;Window1.xaml;
 
-True
+False
 

@@ -15,21 +15,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioDemo", "..\RadioDemo\R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SliderDemo", "..\SliderDemo\SliderDemo.csproj", "{17C54EC0-3B8B-4C47-98A7-7269CB7FF8AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar", "..\Calendar\Calendar.csproj", "{F2D1F4A2-B1BA-438A-AB85-F85970B3AB8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendar", "..\Calendar\Calendar.csproj", "{F2D1F4A2-B1BA-438A-AB85-F85970B3AB8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingDemo", "..\DataBindingDemo\DataBindingDemo.csproj", "{80AA4210-5FF8-42BD-99F9-810A2CF7C23A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBindingDemo", "..\DataBindingDemo\DataBindingDemo.csproj", "{80AA4210-5FF8-42BD-99F9-810A2CF7C23A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationDemos", "..\NavigationDemos\NavigationDemos.csproj", "{D03D9374-5F20-4D9B-84E0-0A51F42A5625}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NavigationDemos", "..\NavigationDemos\NavigationDemos.csproj", "{D03D9374-5F20-4D9B-84E0-0A51F42A5625}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events_Delegates", "..\Events_Delegates\Events_Delegates.csproj", "{C22DF4BA-BC2A-4F42-8F13-3903A174A334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events_Delegates", "..\Events_Delegates\Events_Delegates.csproj", "{C22DF4BA-BC2A-4F42-8F13-3903A174A334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuControlDemos", "..\MenuControlDemos\MenuControlDemos.csproj", "{0ED7827F-C3F2-492E-B1C6-9883D67CB8D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuControlDemos", "..\MenuControlDemos\MenuControlDemos.csproj", "{0ED7827F-C3F2-492E-B1C6-9883D67CB8D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dialogues", "..\Dialogues\Dialogues.csproj", "{54BF9BF3-6863-48F9-B966-96109FE241E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dialogues", "..\Dialogues\Dialogues.csproj", "{54BF9BF3-6863-48F9-B966-96109FE241E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyDemo", "..\DependencyDemo\DependencyDemo.csproj", "{9BEE0FDC-4343-4E02-AE6A-942340805006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyDemo", "..\DependencyDemo\DependencyDemo.csproj", "{9BEE0FDC-4343-4E02-AE6A-942340805006}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProject", "..\MiniProject\MiniProject.csproj", "{741B0C74-32D7-4278-868B-D4A4FA092BF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniProject", "..\MiniProject\MiniProject.csproj", "{741B0C74-32D7-4278-868B-D4A4FA092BF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "recap", "..\recap\recap.csproj", "{8E7B04A4-B5B2-4815-A1E2-5EEB284A41CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{741B0C74-32D7-4278-868B-D4A4FA092BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{741B0C74-32D7-4278-868B-D4A4FA092BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{741B0C74-32D7-4278-868B-D4A4FA092BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7B04A4-B5B2-4815-A1E2-5EEB284A41CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7B04A4-B5B2-4815-A1E2-5EEB284A41CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7B04A4-B5B2-4815-A1E2-5EEB284A41CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7B04A4-B5B2-4815-A1E2-5EEB284A41CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

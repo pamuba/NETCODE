@@ -1,0 +1,7 @@
+D:\dotnet\source\repos\IISHOSTINGDEMO\bin\Debug\IISHOSTINGDEMO.dll.config
+D:\dotnet\source\repos\IISHOSTINGDEMO\bin\Debug\IISHOSTINGDEMO.dll
+D:\dotnet\source\repos\IISHOSTINGDEMO\bin\Debug\IISHOSTINGDEMO.pdb
+D:\dotnet\source\repos\IISHOSTINGDEMO\obj\Debug\IISHOSTINGDEMO.csproj.AssemblyReference.cache
+D:\dotnet\source\repos\IISHOSTINGDEMO\obj\Debug\IISHOSTINGDEMO.csproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\IISHOSTINGDEMO\obj\Debug\IISHOSTINGDEMO.dll
+D:\dotnet\source\repos\IISHOSTINGDEMO\obj\Debug\IISHOSTINGDEMO.pdb

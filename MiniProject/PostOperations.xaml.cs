@@ -25,7 +25,8 @@ namespace MiniProject
         {
             InitializeComponent();
         }
-        public void LikePost() {
+        public void LikePost()
+        {
             Heart.Source = new BitmapImage(new Uri(Environment.CurrentDirectory + @"\..\..\Icons\like.png", UriKind.RelativeOrAbsolute));
             PostLiked = true;
         }
@@ -34,16 +35,12 @@ namespace MiniProject
             Heart.Source = new BitmapImage(new Uri(Environment.CurrentDirectory + @"\..\..\Icons\nolike.png", UriKind.RelativeOrAbsolute));
             PostLiked = false;
         }
-
         private void Heart_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (!PostLiked)
-            {
                 LikePost();
-            }
-            else { 
+            else
                 UnLikePost();
-            }
         }
     }
 }

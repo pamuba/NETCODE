@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\dotnet\source\repos\MiniProject\App.xaml
-2-1757514471
+5-348297891
 
-41768092036
+10-106994149
 198-759771931
-MainWindow.xaml;PostOperations.xaml;
+MainWindow.xaml;PicturePost.xaml;PostLikedBy.xaml;PostOperations.xaml;VideoPost.xaml;
 
 False
 

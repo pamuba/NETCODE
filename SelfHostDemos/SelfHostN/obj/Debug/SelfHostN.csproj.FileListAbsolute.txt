@@ -1,0 +1,11 @@
+D:\dotnet\source\repos\SelfHostDemos\SelfHostN\bin\Debug\SelfHostN.exe.config
+D:\dotnet\source\repos\SelfHostDemos\SelfHostN\bin\Debug\SelfHostN.exe
+D:\dotnet\source\repos\SelfHostDemos\SelfHostN\bin\Debug\SelfHostN.pdb
+D:\dotnet\source\repos\SelfHostDemos\SelfHostN\bin\Debug\MathServiceLibrary.dll
+D:\dotnet\source\repos\SelfHostDemos\SelfHostN\bin\Debug\MathServiceLibrary.pdb
+D:\dotnet\source\repos\SelfHostDemos\SelfHostN\bin\Debug\MathServiceLibrary.dll.config
+D:\dotnet\source\repos\SelfHostDemos\SelfHostN\obj\Debug\SelfHostN.csproj.AssemblyReference.cache
+D:\dotnet\source\repos\SelfHostDemos\SelfHostN\obj\Debug\SelfHostN.csproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\SelfHostDemos\SelfHostN\obj\Debug\SelfHostN.csproj.CopyComplete
+D:\dotnet\source\repos\SelfHostDemos\SelfHostN\obj\Debug\SelfHostN.exe
+D:\dotnet\source\repos\SelfHostDemos\SelfHostN\obj\Debug\SelfHostN.pdb

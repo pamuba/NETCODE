@@ -1,0 +1,14 @@
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\bin\Debug\net7.0\SelfHost.exe
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\bin\Debug\net7.0\SelfHost.deps.json
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\bin\Debug\net7.0\SelfHost.runtimeconfig.json
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\bin\Debug\net7.0\SelfHost.dll
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\bin\Debug\net7.0\SelfHost.pdb
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\obj\Debug\net7.0\SelfHost.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\obj\Debug\net7.0\SelfHost.AssemblyInfoInputs.cache
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\obj\Debug\net7.0\SelfHost.AssemblyInfo.cs
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\obj\Debug\net7.0\SelfHost.csproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\obj\Debug\net7.0\SelfHost.dll
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\obj\Debug\net7.0\refint\SelfHost.dll
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\obj\Debug\net7.0\SelfHost.pdb
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\obj\Debug\net7.0\SelfHost.genruntimeconfig.cache
+D:\dotnet\source\repos\SelfHostDemos\SelfHost\obj\Debug\net7.0\ref\SelfHost.dll

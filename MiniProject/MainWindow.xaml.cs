@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -20,9 +21,15 @@ namespace MiniProject
     /// </summary>
     public partial class MainWindow : Window
     {
+        Random Generator;
         public MainWindow()
         {
             InitializeComponent();
+            Generator = new Random(DateTime.Now.Millisecond);
+            MainStackPanel.Children.Add(new VideoPost(new VideoPostModel()));
+            MainStackPanel.Children.Add(new PicturePost(new PicturePostModel()));
+            MainStackPanel.Children.Add(new VideoPost(new VideoPostModel()));
+            MainStackPanel.Children.Add(new PicturePost(new PicturePostModel()));
         }
     }
 }

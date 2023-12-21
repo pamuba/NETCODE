@@ -1,0 +1,15 @@
+<publishData>
+  <publishTarget publishUrl="http://localhost:8080/">
+    <file relUrl="bin/IISHOSTINGDEMO.pdb" publishTime="12/20/2023 21:31:42" />
+    <file relUrl="bin/IISHOSTINGDEMO.dll.config" publishTime="12/20/2023 03:45:37" />
+    <file relUrl="Properties/AssemblyInfo.cs" publishTime="12/20/2023 03:42:55" />
+    <file relUrl="Web.config" publishTime="12/20/2023 03:45:37" />
+    <file relUrl="bin/IISHOSTINGDEMO.dll" publishTime="12/20/2023 21:31:42" />
+    <file relUrl="App.config" publishTime="12/20/2023 03:45:37" />
+    <file relUrl="IISHOSTINGDEMO.csproj.user" publishTime="12/20/2023 21:31:42" />
+    <file relUrl="IISHOSTINGDEMO.MathService.svc" publishTime="12/20/2023 21:32:27" />
+    <file relUrl="IISHOSTINGDEMO.csproj" publishTime="12/20/2023 03:47:03" />
+    <file relUrl="IMathService.cs" publishTime="12/20/2023 04:03:31" />
+    <file relUrl="MathService.cs" publishTime="12/20/2023 04:03:31" />
+  </publishTarget>
+</publishData>

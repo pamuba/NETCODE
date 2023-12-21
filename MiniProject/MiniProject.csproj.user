@@ -7,15 +7,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="PostOperations.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="PicturePost.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PostLikedBy.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="PostOperations.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VideoPost.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

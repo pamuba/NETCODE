@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:MiniProject"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <local:PostOperations Height="40"></local:PostOperations>
-    </Grid>
+    <ScrollViewer Name="MainScrollViewer"
+                  VerticalScrollBarVisibility="Hidden"
+    >
+        <StackPanel Name="MainStackPanel"/>
+    </ScrollViewer>
 </Window>

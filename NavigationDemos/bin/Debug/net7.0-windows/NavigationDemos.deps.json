@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "NavigationDemos/1.0.0": {
+        "dependencies": {
+          "DataBindingDemo": "1.0.0"
+        },
+        "runtime": {
+          "NavigationDemos.dll": {}
+        }
+      },
+      "DataBindingDemo/1.0.0": {
+        "runtime": {
+          "DataBindingDemo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NavigationDemos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataBindingDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
