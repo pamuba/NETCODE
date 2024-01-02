@@ -1,0 +1,7 @@
+D:\dotnet\source\repos\WSHosting\MathServiceLibrary\bin\Release\MathServiceLibrary.dll.config
+D:\dotnet\source\repos\WSHosting\MathServiceLibrary\bin\Release\MathServiceLibrary.dll
+D:\dotnet\source\repos\WSHosting\MathServiceLibrary\bin\Release\MathServiceLibrary.pdb
+D:\dotnet\source\repos\WSHosting\MathServiceLibrary\obj\Release\MathServiceLibrary.csproj.AssemblyReference.cache
+D:\dotnet\source\repos\WSHosting\MathServiceLibrary\obj\Release\MathServiceLibrary.csproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\WSHosting\MathServiceLibrary\obj\Release\MathServiceLibrary.dll
+D:\dotnet\source\repos\WSHosting\MathServiceLibrary\obj\Release\MathServiceLibrary.pdb

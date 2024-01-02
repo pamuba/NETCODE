@@ -1,0 +1,14 @@
+D:\dotnet\source\repos\SelfHostDemos\MathServiceLibrary\bin\Debug\MathServiceLibrary.dll.config
+D:\dotnet\source\repos\SelfHostDemos\MathServiceLibrary\bin\Debug\MathServiceLibrary.dll
+D:\dotnet\source\repos\SelfHostDemos\MathServiceLibrary\bin\Debug\MathServiceLibrary.pdb
+D:\dotnet\source\repos\SelfHostDemos\MathServiceLibrary\obj\Debug\MathServiceLibrary.csproj.AssemblyReference.cache
+D:\dotnet\source\repos\SelfHostDemos\MathServiceLibrary\obj\Debug\MathServiceLibrary.csproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\SelfHostDemos\MathServiceLibrary\obj\Debug\MathServiceLibrary.dll
+D:\dotnet\source\repos\SelfHostDemos\MathServiceLibrary\obj\Debug\MathServiceLibrary.pdb
+D:\dotnet\source\repos\SelfHostConfig\MathServiceLibrary\bin\Debug\MathServiceLibrary.dll.config
+D:\dotnet\source\repos\SelfHostConfig\MathServiceLibrary\bin\Debug\MathServiceLibrary.dll
+D:\dotnet\source\repos\SelfHostConfig\MathServiceLibrary\bin\Debug\MathServiceLibrary.pdb
+D:\dotnet\source\repos\SelfHostConfig\MathServiceLibrary\obj\Debug\MathServiceLibrary.csproj.AssemblyReference.cache
+D:\dotnet\source\repos\SelfHostConfig\MathServiceLibrary\obj\Debug\MathServiceLibrary.csproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\SelfHostConfig\MathServiceLibrary\obj\Debug\MathServiceLibrary.dll
+D:\dotnet\source\repos\SelfHostConfig\MathServiceLibrary\obj\Debug\MathServiceLibrary.pdb

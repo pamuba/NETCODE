@@ -1,0 +1,11 @@
+D:\dotnet\source\repos\WSHosting\WSHostApplication\bin\WSHostApplication.dll.config
+D:\dotnet\source\repos\WSHosting\WSHostApplication\bin\WSHostApplication.dll
+D:\dotnet\source\repos\WSHosting\WSHostApplication\bin\WSHostApplication.pdb
+D:\dotnet\source\repos\WSHosting\WSHostApplication\bin\MathServiceLibrary.dll
+D:\dotnet\source\repos\WSHosting\WSHostApplication\bin\MathServiceLibrary.pdb
+D:\dotnet\source\repos\WSHosting\WSHostApplication\bin\MathServiceLibrary.dll.config
+D:\dotnet\source\repos\WSHosting\WSHostApplication\obj\Release\WSHostApplication.csproj.AssemblyReference.cache
+D:\dotnet\source\repos\WSHosting\WSHostApplication\obj\Release\WSHostApplication.csproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\WSHosting\WSHostApplication\obj\Release\WSHostApplication.csproj.CopyComplete
+D:\dotnet\source\repos\WSHosting\WSHostApplication\obj\Release\WSHostApplication.dll
+D:\dotnet\source\repos\WSHosting\WSHostApplication\obj\Release\WSHostApplication.pdb
