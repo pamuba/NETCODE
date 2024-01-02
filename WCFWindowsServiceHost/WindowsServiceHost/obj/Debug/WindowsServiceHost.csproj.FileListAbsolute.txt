@@ -1,0 +1,13 @@
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe.config
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.pdb
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\bin\Debug\MathServiceLibrary.dll
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\bin\Debug\MathServiceLibrary.pdb
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\bin\Debug\MathServiceLibrary.dll.config
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\obj\Debug\WindowsServiceHost.csproj.AssemblyReference.cache
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\obj\Debug\WindowsServiceHost.ProjectInstaller.resources
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\obj\Debug\WindowsServiceHost.csproj.GenerateResource.cache
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\obj\Debug\WindowsServiceHost.csproj.CoreCompileInputs.cache
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\obj\Debug\WindowsServiceHost.csproj.CopyComplete
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\obj\Debug\WindowsServiceHost.exe
+D:\dotnet\source\repos\WCFWindowsServiceHost\WindowsServiceHost\obj\Debug\WindowsServiceHost.pdb
